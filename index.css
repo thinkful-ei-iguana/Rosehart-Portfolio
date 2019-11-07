@@ -1,0 +1,67 @@
+body {
+    font-family: 'Assistant', sans-serif;
+    color: white;
+    background-color: rgb(46, 46, 46);
+    text-align: center;
+}
+
+#bio {
+    text-align: center;
+    text-align: justify;
+    width: 400px;
+    margin: auto;
+    padding: 15px;
+}
+
+#title {
+    text-align: center;
+    text-align: justify;
+    width: 400px;
+    margin: auto;
+    padding: 15px;
+}
+
+#introduction {
+    text-align: center;
+    text-align: justify;
+    width: 400px;
+    margin: auto;
+    padding: 15px;
+}
+
+#contactInfo {
+    text-align: center;
+    width: 400px;
+    margin: auto;
+    padding: 15px;
+}
+
+#name {
+    text-align: center;
+    width: 400px;
+    margin: auto;
+    padding: 5px;
+}
+
+#email {
+    color: #60AD5E;
+    text-align: center;
+    width: 400px;
+    margin: auto;
+    padding: 15px;
+}
+
+#phoneNumber {
+    text-align: center;
+    width: 400px;
+    margin: auto;
+    padding: 5px;
+}
+
+#bio {
+    text-align: center;
+    text-align: justify;
+    width: 400px;
+    margin: auto;
+    padding: 15px;
+}
