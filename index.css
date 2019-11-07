@@ -84,7 +84,6 @@ nav {
 }
 
 #listOfSkills {
-    border: solid red 5px;
     display: grid;
     grid-template-columns: repeat(3, auto);
     grid-column: auto;
@@ -95,7 +94,6 @@ nav {
 
 @media screen and (min-width: 320px) {
     #listOfSkills {
-        border: solid red 5px;
         display: grid;
         grid-template-columns: repeat(2, auto);
         grid-column: auto;
@@ -107,7 +105,6 @@ nav {
 
 @media screen and (min-width: 768px) {
     #listOfSkills {
-        border: solid red 5px;
         display: grid;
         grid-template-columns: repeat(3, auto);
         grid-column: auto;
@@ -119,7 +116,6 @@ nav {
 
 @media screen and (min-width: 1024px) {
     #listOfSkills {
-        border: solid red 5px;
         display: grid;
         grid-template-columns: repeat(4, auto);
         grid-column: auto;
