@@ -1,114 +1,132 @@
-* {
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: "Open Sans",
-    sans-serif; 
-    font-size: 20px;
-    color: #444;
+body {
+    font-family: 'Assistant', sans-serif;
+    font-size: 1.3em;
+    color: #6ad4b1;
+    background-color: #2e2e2e;
     text-align: center;
-    line-height: 1.5;
-  }
-  
-  nav,
-  footer {
-    padding: 1% 0;
-    background-color: #aaa;
-  }
-  
-  nav {
+}
+
+nav {
+    color: #1f3a93;
+    font-weight: 600;
+    background-color:  #00FA9A;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 10;
-  }
+}
 
-  #home {
-    margin-right: 50px;
-  }
+#bio {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding: 15px;
+}
 
-  #skills {
+#title {    
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding: 45px;
+}
 
-  }
-  
-  #projects {
-      margin-left: 50px;
-  }
-  
-  
-  header {
-    padding: 12% 0;
-  }
-  
-  section {
-    min-height: 200px;
-    padding: 6% 0;
-    background-color: #bbb;
-  }
-  
-  section:nth-child(even) {
-    background-color: #ddd;
-  }
-  
+#headline {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding: 15px;
+}
 
-  @media screen and (min-width: 320px) {
-    #home {
-        margin-right: 50px;
-      }
-      
-      #projects {
-          margin-left: 50px;
-      }
-  }
-  
-  @media screen and (min-width: 375px) {
-    
-  }
-  
-  @media screen and (min-width: 425px) {
-    
-  }
-  
-  @media screen and (min-width: 768px) {
-    #home {
-        margin-right: 100px;
-      }
-    
-      #skills {
-    
-      }
-      
-      #projects {
-          margin-left: 100px;
-      }
-  }
-  
-  @media screen and (min-width: 1024px) {
-    #home {
-        margin-right: 150px;
-      }
-    
-      #skills {
-    
-      }
-      
-      #projects {
-          margin-left: 150px;
-      }
-  }
+#contactInfo {
+    font-size: 2em;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding: 15px;
+}
 
-  @media screen and (min-width: 1440px) {
-    #home {
-        margin-right: 250px;
-      }
-    
-      #skills {
-    
-      }
-      
-      #projects {
-          margin-left: 250px;
-      }
-  }
+#name {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding: 5px;
+}
+
+#link {
+    color: #f2a127;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding: 15px;
+}
+
+#phoneNumber {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding: 5px;
+}
+
+#projectText {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding: 15px;
+}
+
+#bioExtended {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding: 15px;
+}
+
+#skills {
+    width: 60%;
+    margin: auto;
+    padding: 15px;
+    text-align: center;
+    font-size: 2em;
+}
+
+#projects {
+    width: 60%;
+    margin: auto;
+    padding: 15px;
+    text-align: center;
+    font-size: 2em;
+}
+
+@media screen and (min-width: 320px) {
+    #listOfSkills {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-column: auto;
+        width: 60%;
+        margin: auto;
+        padding: 55px;
+    }   
+}
+
+@media screen and (min-width: 768px) {
+    #listOfSkills {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        grid-column: auto;
+        width: 60%;
+        margin: auto;
+        padding: 15px;
+    }   
+}
+
+@media screen and (min-width: 1024px) {
+    #listOfSkills {
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        grid-column: auto;
+        width: 60%;
+        margin: auto;
+        padding: 15px;
+    }   
+}
