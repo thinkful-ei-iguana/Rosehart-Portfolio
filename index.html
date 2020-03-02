@@ -1,57 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="index.css">
-    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
     <title>Document</title>
-    <link href="https://fonts.googleapis.com/css?family=Assistant|Tajawal&display=swap" rel="stylesheet">
 </head>
+
 <body>
-        <nav role="navigation">Nav</nav>
+    <nav>Nav</nav>
     <h1 id="title">Rosehart Portfolio</h1>
     <h2 id="headline">Hi, I'm Calvin, I’m a coding engineer & I am enthusiastic about bringing projects to life.</h2>
     <h3 id="contactInfo">Contact Info:</h3>
     <h3 id="name">Calvin T Rosehart</h3>
-    <a id="link"href="https://github.com/C-Rosehart">Github Profile</a>
-    <a id="link" href="https://www.linkedin.com/in/calvin-rosehart-56a398105/">LinkedIn Profile</a>
-    <a id="link" href="mailto:CalvinRosehart@yahoo.com">CalvinRosehart@yahoo.com</a>
+    <a id="githubprofile" href="https://github.com/C-Rosehart" target="_blank">Github Profile</a>
+    <a id="linkedin" href="https://www.linkedin.com/in/calvin-rosehart-56a398105/" target="_blank">LinkedIn Profile</a>
+    <a id="email" href="mailto:CalvinRosehart@yahoo.com">CalvinRosehart@yahoo.com</a>
     <h3 id="phoneNumber">1-802-683-0773</h3>
-    <p  id="bio">I am a program engineer, currently studying in the Engineering 
-        Immersion Career Path bootcamp at Thinkful. 
+    <p id="bio">I am a program engineer, currently studying in the Engineering
+        Immersion Career Path bootcamp at Thinkful.
         I bring a unique perspective to whatever project I encounter.</p>
-        
-        <p id="bio">
+
+    <p id="bio">
         As a manager and as a teacher I can communicate with others
         on my team really well. My degree in psychology gives me the specialized
-        training to communcaite in different styles as needed in order to help a deeper comprehension. 
+        training to communcaite in different styles as needed in order to help a deeper comprehension.
+    </p>
+    <p id="bioExtended">
+        My experience working as a fiber optics technician gives me a unique
+        perspective on problem solving and how each portion of a job can be
+        a unique fun and engaging puzzle.
+    </p>
+    <h3 id="skills"> Skills </h3>
+    <div id="listOfSkills">
+        <p id="subSkills">terraforming </p>
+        <p id="subSkills">mind reading </p>
+        <p id="subSkills">wizardry </p>
+        <p id="subSkills">levitating potatoes</p>
+    </div>
+    <h3 id="projects">Projects</h3>
+    <h3 id="projectText">Music Theory Quiz App
+        This quiz takes the user through an 8 question quiz to test their music theory knowledge.
+        It gives feedback on whether the selected answer was right or wrong and then progresses to the next question.
+        At the end of the quiz the user may retake the quiz again.</h3>
+    <p id="projectText" target="_blank">The Music Theory Quiz App uses HTML, JavaScript, CSS, jQuery and JSON.</p>
+    <a id="link" href="https://thinkful-ei-iguana.github.io/Jon-and-Calvin/" target="_blank"> Music Quiz live
+        application</a>
+    <a id="link" href="https://github.com/thinkful-ei-iguana/Jon-and-Calvin" target="_blank">Quiz Code</a>
+
+    <h3 id="projectText">Kitchen Helper is the first version of a bigger and better app I built further out later on.
+        This is my first full-stack project ever. It is meant to be an all around kitchen assistant and help you achieve
+        efficiency in the kitchen.</h3>
+    <p id="projectText" target="_blank">This app uses these languages and libraries.</p>
+    <a id="link" href="https://kitchen-helper-4r1cjmi8j.now.sh/" target="_blank"> Kitchen Helper live application</a>
+    <a id="link" href="https://github.com/thinkful-ei-iguana/kitchen-helper-front-end" target="_blank">Kitchen Helper
+        Client Code</a>
+    <a id="link" href="https://github.com/thinkful-ei-iguana/kitchen-helper" target="_blank">Kitchen Helper Server
+        Code</a>
+
+    <h3 id="projectText">Maori in Motion</h3>
+    <p id="projectText" target="_blank">The Maori in Motion App uses HTML, JavaScript, CSS, React, Nodemon, Express,
+        Chai, Mocha, Cypress, Helmet, Supertest, Jest, XSS, bcrypt, knex, PostgreSQL, and JSON..</p>
+    <a id="link" href="https://spaced-repetition-40hn4twz9.now.sh/register" target="_blank"> Maori in Motion live
+        application</a>
+    <a id="link" href="https://github.com/thinkful-ei-iguana/calvin-maggie-capstone-client" target="_blank">Maori in
+        Motion Client Code</a>
+    <a id="link" href="https://github.com/thinkful-ei-iguana/calvin-maggie-capstone-server" target="_blank">Maori in
+        Motion Server Code</a>
+
+    <h3 id="projectText">Petful adoption live application
+        This application is a 'first in first out' adoption agency application with dummy data. It allows the user to
+        see the landing page, begin the adoption process, choose a pet to adopt and then take home! As a user adopts
+        from the agency their user is removed from the list of available adopters until eventually none are left. This
+        is a work in progress. The WIP portion is making it so when pets/users are 'run out of' the user is notified and
+        brought to the landing page and the list of adopters and adoptees are refreshed</h3>
+    <p id="projectText" target="_blank">The Petful App uses HTML, JavaScript, CSS, React, Nodemon, Express, and JSON.
+    </p>
+    <a id="link" href="https://petful-app-puptpybuk.now.sh/" target="_blank"> Petful live application</a>
+    <a id="link" href="https://github.com/thinkful-ei-iguana/Jon-Calvin-Petful-Client" target="_blank">Petful
+        Client
+        <a id="link" href="https://github.com/thinkful-ei-iguana/Jon-Calvin-Petful-Fixing-Issues" target="_blank">Petful
+            Server</a>
+
+        <h3 id="projectText">Kitchen Helper 2020 is the second version of Kitchen Helper, it was collaborated on with
+            three other developers, names found in the README file. During this project I was the QA Lead and was in
+            charge of making sure that we had 100% coverage down every API ENDPOINT, and every client side component
+            with 100% passing tests. I was also in charge of making sure that user stories were fulfilled during
+            construction of the application and that nothing was left out from the original design.
+            This is my third full-stack project. It is meant to be an all around kitchen assistant and help you
+            achieve efficiency in the kitchen.</h3>
+        <p id="projectText" target="_blank">The Kitchen Helper 2020 App uses HTML, JavaScript, CSS, React, Nodemon,
+            Express, Chai, Mocha, Supertest, Jest, Lodash, XSS, bcrypt, knex, PostgreSQL, and
+            JSON.
         </p>
-                 <p id="bioExtended">
-                        My experience working as a fiber optics technician gives me a unique 
-                        perspective on problem solving and how each portion of a job can be 
-                        a unique fun and engaging puzzle.
-                 </p>
-                 <h3 id="skills"> Skills </h3>
-                 <div id="listOfSkills">
-                    <p id="subSkills">terraforming </p>
-                    <p id="subSkills">mind reading </p>
-                    <p id="subSkills">wizardry </p>
-                    <p id="subSkills">levitating potatoes</p>
-                    <p id="subSkills">levitating potatoes</p>
-                    <p id="subSkills">levitating potatoes</p>
-                    <p id="subSkills">levitating potatoes</p>
-                    <p id="subSkills">levitating potatoes</p>
-                    <p id="subSkills">levitating potatoes</p>
-                </div>
-                <h3 id="projects">Projects</h3>
-                <p id="projectText">Music Theory Quiz App
-                    This quiz takes the user through an 8 question quiz to test their music theory knowledge.
-                    It gives feedback on whether the selected answer was right or wrong and then progresses to the next question.
-                    At the end of the quiz the user may retake the quiz again.</p>
-                    <p id="projectText">The Music Theory Quiz App uses HTML, JavaScript, CSS, jQuery and JSON.</p>
-                    <a id="link" href="C_Rosehart.git.io"> Live project</a>
-                    <a id="link" href="https://github.com/thinkful-ei-iguana/Jon-and-Calvin.git">Link to Project Repo</a>
+        <a id="link" href="https://delta-squad-app-6q3cpjgck.now.sh/" target="_blank"> Kitchen Helper
+            2020 live application</a>
+        <a id="link" href="https://github.com/thinkful-ei-iguana/Delta-Squad-Front-End" target="_blank">Kitchen Helper
+            2020
+            Code
+            <a id="link" href="https://github.com/thinkful-ei-iguana/Delta-Squad-Server" target="_blank">Kitchen Helper
+                2020 Code</a>
+
 </body>
+
 </html>

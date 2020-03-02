@@ -2,7 +2,7 @@ body {
     font-family: 'Assistant', sans-serif;
     font-size: 1.3em;
     color: #6ad4b1;
-    background-color: #2e2e2e;
+    background-color: #3b3b3b;
     text-align: center;
 }
 
@@ -16,6 +16,29 @@ nav {
     right: 0;
     z-index: 10;
 }
+
+#githubprofile {
+    text-decoration: none;
+    background-color: #625757;
+    color: #6ad4b1;
+    padding: 5px;
+}
+
+#linkedin {
+    text-decoration: none;
+    background-color: #625757;
+    color: #6ad4b1;
+    padding: 5px;
+}
+
+#email {
+    text-decoration: none;
+    background-color: #625757;
+    color: #6ad4b1;
+    padding: 5px;
+}
+
+
 
 #bio {
     text-align: center;
@@ -96,6 +119,10 @@ nav {
     padding: 15px;
     text-align: center;
     font-size: 2em;
+}
+
+#projectText {
+    padding-top: 30px;
 }
 
 @media screen and (min-width: 320px) {
